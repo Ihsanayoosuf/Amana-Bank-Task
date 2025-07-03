@@ -24,12 +24,13 @@
   </head>
   <body>
     <!-- Body -->
-    <div class="grid grid-cols-[1fr_2fr_1fr]">
+    <div class="sm:grid grid-cols-[1fr_2fr_1fr] ">
 
       <!-- First Col -->
       <div class="bg-[#F4F5F7] p-10">
         <!-- User profile Section-->
-         <div class="flex gap-5 justify-center items-center">
+         <div class="flex gap-5 justify-between items-center">
+              <div class="flex gap-3">
             <!-- profile image -->
              <div class="bg-[url('/images/UserProfile.jpeg')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
              <!-- Name -->
@@ -37,26 +38,33 @@
                 <h4 class="text-[#5145E7] font-semibold">Gravid Christofer</h4>
                 <p class="text-sm text-gray-500">Senior Developer</p>
               </div>
+              </div>
               <!-- Edit icon -->
                <i class="ri-pencil-line"></i>
          </div>
 
+         <div class="block sm:hidden mt-5">
+            <h1 class="text-3xl font-bold ">Chats</h1>
+         </div>
+
          <!-- Search Bar -->
-          <div class="flex gap-3 rounded-lg bg-[#FFFFFF] p-2 mt-10">
+          <div class="flex gap-3 rounded-lg bg-[#FFFFFF] p-2 mt-3">
             <i class="ri-search-line"></i>
             <input type="text" placeholder="Search Friends" class="text-sm">
           </div>
 
           <!-- Friends Section -->
-           <div class="mt-10">
+           <div class="mt-10 ">
             <!-- friend 1 -->
-            <div class="flex gap-5 justify-center items-center my-5">
-            <!-- profile image -->
+            <div class="flex  justify-between items-center my-5 ">
+              <div class="flex gap-3">
+                <!-- profile image -->
              <div class="bg-[url('./images/Frnd1.jpeg')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
              <!-- Name -->
               <div>
                 <h4 class="text-[#5145e7] font-semibold">Brad Forst</h4>
                 <p class="text-xs text-gray-500 ">Message for Brad Forst </p>
+              </div>
               </div>
               <!-- Time & other -->
                <div class="flex flex-col items-end">
@@ -66,13 +74,15 @@
             </div>
  
             <!-- friend 2 -->
-            <div class="flex gap-5 justify-center items-center my-5">
-            <!-- profile image -->
+            <div class="flex  justify-between items-center my-5 ">
+              <div class="flex gap-3">
+                <!-- profile image -->
              <div class="bg-[url('./images/Frnd2.jpg')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
              <!-- Name -->
               <div>
-                <h4 class="text-[#5145e7] font-semibold">Brad Forst</h4>
-                <p class="text-xs text-gray-500 ">Message for Brad Forst </p>
+                <h4 class="text-[#5145e7] font-semibold">Poul Irish</h4>
+                <p class="text-xs text-gray-500 ">Message for Poul Irish </p>
+              </div>
               </div>
               <!-- Time & other -->
                <div class="flex flex-col items-end">
@@ -82,13 +92,15 @@
             </div>
 
             <!-- friend 3 -->
-            <div class="flex gap-5 justify-center items-center my-5">
-            <!-- profile image -->
+            <div class="flex  justify-between items-center my-5 ">
+              <div class="flex gap-3">
+                <!-- profile image -->
              <div class="bg-[url('./images/Frnd3.avif')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
              <!-- Name -->
               <div>
-                <h4 class="text-[#5145e7] font-semibold">Brad Forst</h4>
-                <p class="text-xs text-gray-500 ">Message for Brad Forst </p>
+                <h4 class="text-[#5145e7] font-semibold">Lora Williams</h4>
+                <p class="text-xs text-gray-500 ">Message for Lora Williams </p>
+              </div>
               </div>
               <!-- Time & other -->
                <div class="flex flex-col items-end">
@@ -98,13 +110,15 @@
             </div>
 
             <!-- friend 4 -->
-            <div class="flex gap-5 justify-center items-center my-5">
-            <!-- profile image -->
+            <div class="flex  justify-between items-center my-5 ">
+              <div class="flex gap-3">
+                <!-- profile image -->
              <div class="bg-[url('./images/Frnd4.avif')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
              <!-- Name -->
               <div>
-                <h4 class="text-[#5145e7] font-semibold">Brad Forst</h4>
-                <p class="text-xs text-gray-500 ">Message for Brad Forst </p>
+                <h4 class="text-[#5145e7] font-semibold">Lina Roy</h4>
+                <p class="text-xs text-gray-500 ">Message for Lina Roy </p>
+              </div>
               </div>
               <!-- Time & other -->
                <div class="flex flex-col items-end">
@@ -114,13 +128,15 @@
             </div>
 
             <!-- friend 5 -->
-            <div class="flex gap-5 justify-center items-center my-5">
-            <!-- profile image -->
+            <div class="flex  justify-between items-center my-5 ">
+              <div class="flex gap-3">
+                <!-- profile image -->
              <div class="bg-[url('./images/Frnd5.avif')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
              <!-- Name -->
               <div>
-                <h4 class="text-[#5145e7] font-semibold">Brad Forst</h4>
-                <p class="text-xs text-gray-500 ">Message for Brad Forst </p>
+                <h4 class="text-[#5145e7] font-semibold">Eric Rome</h4>
+                <p class="text-xs text-gray-500 ">Message for Eric Rome </p>
+              </div>
               </div>
               <!-- Time & other -->
                <div class="flex flex-col items-end">
@@ -130,13 +146,15 @@
             </div>
 
             <!-- friend 6 -->
-            <div class="flex gap-5 justify-center items-center my-5">
-            <!-- profile image -->
+            <div class="flex  justify-between items-center my-5 ">
+              <div class="flex gap-3">
+                <!-- profile image -->
              <div class="bg-[url('./images/Frnd6.avif')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
              <!-- Name -->
               <div>
-                <h4 class="text-[#5145e7] font-semibold">Brad Forst</h4>
-                <p class="text-xs text-gray-500 ">Message for Brad Forst </p>
+                <h4 class="text-[#5145e7] font-semibold">Charls Forst</h4>
+                <p class="text-xs text-gray-500 ">Message for Charls Forst </p>
+              </div>
               </div>
               <!-- Time & other -->
                <div class="flex flex-col items-end">
@@ -150,7 +168,7 @@
       </div>
 
       <!-- Second Col -->
-       <div class="bg-[#FFFFFF] px-5">
+       <div class="bg-[#FFFFFF] px-5 sm:block hidden">
         <!-- Chatting Nav -->
          <div class="p-5 flex justify-between items-center">
 
@@ -250,7 +268,7 @@
        </div>
 
        <!-- Third col -->
-        <div class="bg-[#F4F5F7] p-10">
+        <div class="bg-[#F4F5F7] p-10 sm:block hidden">
 
             <!-- Serach bar -->
            <div class="flex gap-3 rounded-lg bg-[#FFFFFF] p-2 mt-10">
