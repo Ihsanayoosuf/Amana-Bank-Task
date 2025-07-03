@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Tailwind CDN link -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Remix icon CDN link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- internal CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Body -->
+    <div class="grid grid-cols-[1fr_2fr_1fr]">
+
+      <!-- First Col -->
+      <div class="bg-[#F4F5F7] p-10">
+        <!-- User profile Section-->
+         <div class="flex gap-5 justify-center items-center">
+            <!-- profile image -->
+             <div class="bg-[url('/images/UserProfile.jpeg')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
+             <!-- Name -->
+              <div>
+                <h4 class="text-[#5145E7] font-semibold">Gravid Christofer</h4>
+                <p class="text-sm text-gray-500">Senior Developer</p>
+              </div>
+              <!-- Edit icon -->
+               <i class="ri-pencil-line"></i>
+         </div>
+
+         <!-- Search Bar -->
+          <div class="flex gap-3 rounded-lg bg-[#FFFFFF] p-2 mt-10">
+            <i class="ri-search-line"></i>
+            <input type="text" placeholder="Search Friends" class="text-sm">
+          </div>
+
+          <!-- Friends Section -->
+           <div class="mt-10">
+            <!-- friend 1 -->
+            <div class="flex gap-5 justify-center items-center my-5">
+            <!-- profile image -->
+             <div class="bg-[url('./images/Frnd1.jpeg')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
+             <!-- Name -->
+              <div>
+                <h4 class="text-[#5145e7] font-semibold">Brad Forst</h4>
+                <p class="text-xs text-gray-500 ">Message for Brad Forst </p>
+              </div>
+              <!-- Time & other -->
+               <div class="flex flex-col items-end">
+                <p class="text-xs">10:30 AM</p>
+                <div class="bg-[#5145e7] h-5 w-5 p-1 text-white rounded-full text-center text-xs">1</div>
+               </div>
+            </div>
+ 
+            <!-- friend 2 -->
+            <div class="flex gap-5 justify-center items-center my-5">
+            <!-- profile image -->
+             <div class="bg-[url('./images/Frnd2.jpg')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
+             <!-- Name -->
+              <div>
+                <h4 class="text-[#5145e7] font-semibold">Brad Forst</h4>
+                <p class="text-xs text-gray-500 ">Message for Brad Forst </p>
+              </div>
+              <!-- Time & other -->
+               <div class="flex flex-col items-end">
+                <p class="text-xs">10:30 AM</p>
+                <div class="text-[#5145e7] h-5 w-5 p-1 font-bold rounded-full text-center text-xs"><i class="ri-check-line"></i></div>
+               </div>
+            </div>
+
+            <!-- friend 3 -->
+            <div class="flex gap-5 justify-center items-center my-5">
+            <!-- profile image -->
+             <div class="bg-[url('./images/Frnd3.avif')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
+             <!-- Name -->
+              <div>
+                <h4 class="text-[#5145e7] font-semibold">Brad Forst</h4>
+                <p class="text-xs text-gray-500 ">Message for Brad Forst </p>
+              </div>
+              <!-- Time & other -->
+               <div class="flex flex-col items-end">
+                <p class="text-xs">10:30 AM</p>
+                <div class="text-[#5145e7] h-5 w-5 p-1 font-bold rounded-full text-center text-xs"><i class="ri-check-line"></i></div>
+               </div>
+            </div>
+
+            <!-- friend 4 -->
+            <div class="flex gap-5 justify-center items-center my-5">
+            <!-- profile image -->
+             <div class="bg-[url('./images/Frnd4.avif')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
+             <!-- Name -->
+              <div>
+                <h4 class="text-[#5145e7] font-semibold">Brad Forst</h4>
+                <p class="text-xs text-gray-500 ">Message for Brad Forst </p>
+              </div>
+              <!-- Time & other -->
+               <div class="flex flex-col items-end">
+                <p class="text-xs">10:30 AM</p>
+                <div class="text-[#5145e7] h-5 w-5 p-1 font-bold rounded-full text-center text-xs"><i class="ri-check-line"></i></div>
+               </div>
+            </div>
+
+            <!-- friend 5 -->
+            <div class="flex gap-5 justify-center items-center my-5">
+            <!-- profile image -->
+             <div class="bg-[url('./images/Frnd5.avif')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
+             <!-- Name -->
+              <div>
+                <h4 class="text-[#5145e7] font-semibold">Brad Forst</h4>
+                <p class="text-xs text-gray-500 ">Message for Brad Forst </p>
+              </div>
+              <!-- Time & other -->
+               <div class="flex flex-col items-end">
+                <p class="text-xs">10:30 AM</p>
+                <div class="bg-[#5145e7] h-5 w-5 p-1 text-white rounded-full text-center text-xs">1</div>
+               </div>
+            </div>
+
+            <!-- friend 6 -->
+            <div class="flex gap-5 justify-center items-center my-5">
+            <!-- profile image -->
+             <div class="bg-[url('./images/Frnd6.avif')] bg-cover bg-center h-[50px] w-[50px] rounded-full border border-[#5145E7] "></div>
+             <!-- Name -->
+              <div>
+                <h4 class="text-[#5145e7] font-semibold">Brad Forst</h4>
+                <p class="text-xs text-gray-500 ">Message for Brad Forst </p>
+              </div>
+              <!-- Time & other -->
+               <div class="flex flex-col items-end">
+                <p class="text-xs">10:30 AM</p>
+                <div class="text-[#5145e7] h-5 w-5 p-1 font-bold rounded-full text-center text-xs"><i class="ri-check-line"></i></div>
+               </div>
+            </div>
+
+            
+           </div>
+      </div>
+
+      <!-- Second Col -->
+       <div class="bg-[#FFFFFF] px-5">
+        <!-- Chatting Nav -->
+         <div class="p-5 flex justify-between items-center">
+
+            <div class="flex gap-5 justify-center items-center">
+            <!-- profile image -->
+             <div class="bg-[url('/images/Frnd6.avif')] bg-cover bg-center h-[50px] w-[50px] rounded-full "></div>
+             <!-- Name -->
+              <div class="flex items-center justify-center gap-3">
+                <h4 class="font-semibold">Gravid Christofer</h4>
+                <div class="bg-[#2EBF6C] text-white text-xs w-2 h-2 rounded-full text-center"></div>
+              </div>
+            </div>
+
+            <div class="flex gap-2 text-lg">
+                <i class="ri-search-line"></i>
+                <i class="ri-heart-line"></i>
+                <i class="ri-notification-2-line"></i>
+            </div>
+
+         </div>
+
+         <hr>
+
+         <!-- Messages -->
+          <div class="mt-5">
+
+            <div class="text-center">
+                <hr>
+                <p class="text-xs text-gray-500">Yesterday</p>
+            </div>
+
+            <div class="my-5">
+
+                    <div class="flex gap-2 my-5">
+                        <div class="bg-[url('/images/Frnd6.avif')] bg-cover bg-center h-[30px] w-[30px] rounded-full "></div>
+                        <div class="bg-[#E4E8E9] py-3 px-2 w-fit text-sm text-gray-700 rounded-md">That's great</div>
+                    </div>
+
+                    <div class="flex gap-2 justify-end my-5">
+                        <div class="bg-[#5246E4] text-white py-3 px-2 w-[300px] text-sm rounded-md ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, dolor?</div>
+                        <div class="bg-[url('/images/UserProfile.jpeg')] bg-cover bg-center h-[30px] w-[30px] rounded-full "></div>
+                    </div>
+
+                    <div class="flex gap-2 justify-end my-5">
+                        <div class="bg-[#5246E4] text-white py-3 px-2 w-[300px] text-sm rounded-md ">Lorem ipsum dolor sit amet consectetur</div>
+                        <div class="bg-[url('/images/UserProfile.jpeg')] bg-cover bg-center h-[30px] w-[30px] rounded-full "></div>
+                    </div>
+
+                    <div class="flex gap-2 my-5">
+                        <div class="bg-[url('/images/Frnd6.avif')] bg-cover bg-center h-[30px] w-[30px] rounded-full "></div>
+                        <div class="bg-[#E4E8E9] py-3 px-2 w-fit text-sm text-gray-700 rounded-md">Lorem, ipsum dolor.</div>
+                    </div>
+
+                    <div class="flex gap-2 my-5">
+                        <div class="bg-[url('/images/Frnd6.avif')] bg-cover bg-center h-[30px] w-[30px] rounded-full "></div>
+                        <div class="bg-[#E4E8E9] py-3 px-2 w-fit text-sm text-gray-700 rounded-md">Lorem ipsum dolor sit amet.</div>
+                    </div>
+
+                    <div class="text-center">
+                      <hr>
+                      <p class="text-xs text-gray-500">Yesterday</p>
+                    </div>
+
+                    <div class="flex gap-2 my-5">
+                        <div class="bg-[url('/images/Frnd6.avif')] bg-cover bg-center h-[30px] w-[30px] rounded-full "></div>
+                        <div class="bg-[#E4E8E9] py-3 px-2 w-fit text-sm text-gray-700 rounded-md flex gap-5 justify-center items-center">
+                            <div class="bg-[#5246E4] text-white p-1 rounded-sm">PDF</div>
+                            <p>Report.PDF</p>
+                            <i class="ri-download-line"></i>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-2 justify-end my-5">
+                        <div class="bg-[#5246E4] text-white py-3 px-2 w-fit text-sm rounded-md ">Lorem ipsum dolor sit amet consectetur?</div>
+                        <div class="bg-[url('/images/UserProfile.jpeg')] bg-cover bg-center h-[30px] w-[30px] rounded-full "></div>
+                    </div>
+            </div>
+            
+            <!-- Message Bar -->
+             <div class="flex gap-3 text-gray-500 justify-center items-center">
+                <div class="flex gap-2 bg-[#E6E8EB] p-2 rounded-full w-[500px]">
+                    <i class="ri-mic-line"></i>
+                    <input type="text" placeholder="Write Something">
+                </div>
+
+                <div class="text-2xl flex gap-2">
+                <i class="ri-attachment-2"></i>
+                <i class="ri-camera-line"></i>
+                <i class="ri-emotion-happy-line"></i>
+                </div>
+
+                <div class="bg-[#5246E4] text-xl flex justify-center items-center text-white p-2 rounded-full w-8 h-8 ">
+                    <i class="ri-send-plane-2-line"></i>
+                </div>
+             </div>
+          </div>
+       </div>
+
+       <!-- Third col -->
+        <div class="bg-[#F4F5F7] p-10">
+
+            <!-- Serach bar -->
+           <div class="flex gap-3 rounded-lg bg-[#FFFFFF] p-2 mt-10">
+            <i class="ri-search-line"></i>
+            <input type="text" placeholder="Search People" class="text-sm">
+           </div>
+
+            <!-- Profile Info -->
+           <div class="flex flex-col gap-5 justify-center items-center mt-10">
+            <!-- profile image -->
+             <div class="bg-[url('/images/UserProfile.jpeg')] bg-cover bg-center h-[100px] w-[100px] rounded-full "></div>
+             <!-- Name -->
+              <div class="text-center">
+                <h4 class="text-2xl">Gravid Christofer</h4>
+                <p class="text-sm text-gray-500">Senior Developer</p>
+              </div>
+           </div>
+
+           <!-- call & chat -->
+           <div class=" flex gap-5 justify-center items-center my-5">
+
+            <div class="flex flex-col justify-center items-center gap-2">
+             <div class="w-[60px] h-[60px] bg-[#C7D1FF] flex justify-center items-center rounded-full">
+                <div class="text-[#3B46A8] text-3xl"><i class="ri-chat-3-fill"></i></div>
+             </div>
+             <p class="text-sm text-gray-500">Chat</p>
+           </div>
+
+
+            <div class="flex flex-col justify-center items-center gap-2">
+             <div class="w-[60px] h-[60px] bg-[#C7D1FF] flex justify-center items-center rounded-full">
+                <div class="text-[#3B46A8] text-3xl"><i class="ri-video-on-fill"></i></div>
+             </div>
+             <p class="text-sm text-gray-500">Video Call</p>
+           </div>
+           </div>
+
+           <!-- other -->
+           <div class="flex flex-col gap-2">
+
+            <div class="flex gap-3 text-gray-500 items-center">
+                <i class="ri-user-line"></i>
+                <p class="text-sm">View Friends</p>
+            </div>
+
+            <div class="flex gap-3 text-gray-500 items-center">
+                <i class="ri-heart-line"></i>
+                <p class="text-sm">Add to Favourite</p>
+            </div>
+           </div>
+
+           <!-- Attachment -->
+
+            <p class="font-semibold mt-5">Attachment</p>
+            <div class="flex gap-5 mt-5">
+                <div class="bg-[#C7D3FC] text-[#3C47AB] text-xs rounded-sm flex justify-center items-center font-semibold w-[55px] h-[66px] ">PDF</div>
+                <div class="bg-[#C7D3FC] text-[#3C47AB] text-xs rounded-sm flex justify-center items-center font-semibold w-[55px] h-[66px] ">Video</div>
+                <div class="bg-[#C7D3FC] text-[#3C47AB] text-xs rounded-sm flex justify-center items-center font-semibold w-[55px] h-[66px] ">MP3</div>
+                <div class="bg-[#C7D3FC] text-[#3C47AB] text-xs rounded-sm flex justify-center items-center font-semibold w-[55px] h-[66px] ">Image</div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
